@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9ABA7331-52DC-4812-BFC2-1F9346DFF3B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudyDotnetRabbitMq.Application", "src\Application\StudyDotnetRabbitMq.Application.csproj", "{88DD1814-4E9B-4B4F-BD69-AB9DE808A87A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudyDotnetRabbitMq.Domain", "src\Domain\StudyDotnetRabbitMq.Domain.csproj", "{9E86E45B-2D27-44C9-A1AC-D19FE07F198B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudyDotnetRabbitMq.Infrastructure", "src\Infrastructure\StudyDotnetRabbitMq.Infrastructure.csproj", "{C9CB2A58-9137-4709-B501-C9EC405D4C2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudyDotnetRabbitMq.Presentation.WebApi", "src\Presentation.WebApi\StudyDotnetRabbitMq.Presentation.WebApi.csproj", "{932BC652-C43C-40DE-942D-01CC1B227E22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88DD1814-4E9B-4B4F-BD69-AB9DE808A87A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88DD1814-4E9B-4B4F-BD69-AB9DE808A87A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88DD1814-4E9B-4B4F-BD69-AB9DE808A87A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88DD1814-4E9B-4B4F-BD69-AB9DE808A87A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E86E45B-2D27-44C9-A1AC-D19FE07F198B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E86E45B-2D27-44C9-A1AC-D19FE07F198B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E86E45B-2D27-44C9-A1AC-D19FE07F198B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E86E45B-2D27-44C9-A1AC-D19FE07F198B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9CB2A58-9137-4709-B501-C9EC405D4C2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9CB2A58-9137-4709-B501-C9EC405D4C2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9CB2A58-9137-4709-B501-C9EC405D4C2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9CB2A58-9137-4709-B501-C9EC405D4C2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{932BC652-C43C-40DE-942D-01CC1B227E22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{932BC652-C43C-40DE-942D-01CC1B227E22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{932BC652-C43C-40DE-942D-01CC1B227E22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{932BC652-C43C-40DE-942D-01CC1B227E22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{88DD1814-4E9B-4B4F-BD69-AB9DE808A87A} = {9ABA7331-52DC-4812-BFC2-1F9346DFF3B9}
+		{9E86E45B-2D27-44C9-A1AC-D19FE07F198B} = {9ABA7331-52DC-4812-BFC2-1F9346DFF3B9}
+		{C9CB2A58-9137-4709-B501-C9EC405D4C2B} = {9ABA7331-52DC-4812-BFC2-1F9346DFF3B9}
+		{932BC652-C43C-40DE-942D-01CC1B227E22} = {9ABA7331-52DC-4812-BFC2-1F9346DFF3B9}
+	EndGlobalSection
+EndGlobal
