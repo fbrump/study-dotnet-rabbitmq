@@ -28,11 +28,15 @@ The focus of this project is...
 
 ## Local
 
+First, we should execute this command below.
+
 ```bash
 
 dotnet run --project ./src/Presentation.WebApi/Presentation.WebApi.csproj
 
 ```
+
+Then, open this link http://localhost:5119/swagger/index.html.
 
 ## Docker Compose
 

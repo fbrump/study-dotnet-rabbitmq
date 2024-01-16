@@ -2,7 +2,7 @@ using Application;
 
 namespace Presentation.WebApi.Configurations;
 
-internal static class MediatRExtenssion
+internal static class MediatRExtensions
 {
     public static IServiceCollection ConfigureMediatR(this IServiceCollection services)
     {

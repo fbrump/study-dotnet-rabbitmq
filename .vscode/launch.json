@@ -1,0 +1,11 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C#: StudyDotnetRabbitMq.Presentation.WebApi [Default Configuration]",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}/src/Presentation.WebApi/StudyDotnetRabbitMq.Presentation.WebApi.csproj"
+        }
+    ]
+}
