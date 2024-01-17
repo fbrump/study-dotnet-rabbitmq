@@ -1,6 +1,7 @@
+using Application.Configurations;
 using Application.Consumers;
+using Application.Messages;
 using MassTransit;
-using Presentation.WebApi.Configurations.Options;
 
 namespace Presentation.WebApi.Configurations;
 
@@ -16,6 +17,7 @@ internal static class RabbitMQExtensions
         services.AddMassTransit(x =>
             {
                 x.AddConsumer<ExampleConsumer>();
+                x.AddConsumer<CreateUserConsumer, CreateUserConsumerDefinition>();
 
                 x.UsingRabbitMq((context,cfg) =>
                 {
