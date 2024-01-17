@@ -1,6 +1,4 @@
-
-
-using Presentation.WebApi.Configurations.Options;
+using Application.Configurations;
 
 namespace Presentation.WebApi.Configurations;
 

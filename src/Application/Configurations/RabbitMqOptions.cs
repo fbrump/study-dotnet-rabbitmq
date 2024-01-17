@@ -1,6 +1,6 @@
-namespace Presentation.WebApi.Configurations.Options;
+namespace Application.Configurations;
 
-internal class RabbitMqOptions
+public class RabbitMqOptions
 {
     public static string AppsettingSectionName { get; set; } = "RabbitMQ";
 
@@ -8,4 +8,6 @@ internal class RabbitMqOptions
     public string Password { get; set; } = string.Empty;
     public string VirtualHost { get; set; } = string.Empty;
     public string HostName { get; set; } = string.Empty;
+
+    public CreateUserOptions CreateUser { get; set; } = new();
 }

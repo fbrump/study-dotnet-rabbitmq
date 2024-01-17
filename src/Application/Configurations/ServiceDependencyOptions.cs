@@ -1,7 +1,6 @@
+namespace Application.Configurations;
 
-namespace Presentation.WebApi.Configurations.Options;
-
-internal class ServiceDependencyOptions
+public class ServiceDependencyOptions
 {
     public static string AppsettingSectionName { get; set; } = "ServiceDependencies";
 
